@@ -1,11 +1,11 @@
-import { Buttons } from './components/Buttons'
+import { Home } from './pages/Home'
+import './styles/global.scss'
+
+import './services/firebase'
 
 function App() {
   return(
-    <>
-      <Buttons text="Hello World"/>
-      <Buttons />
-    </>
+    <Home />
   )
 }
 
